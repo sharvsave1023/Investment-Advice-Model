@@ -20,7 +20,7 @@ class Analysis1():
     def __init__(self, ticker):
         print("\ninside Analysis1.__init__")
         self.ticker = ticker
-        self.api_key = '1bd3a664e9e53b21b0264f0a985fce0f'
+        self.api_key = 'INSERT OWN API KEY HERE'
     # end of function
 
     def get_data(self):
