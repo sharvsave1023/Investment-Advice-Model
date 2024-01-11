@@ -33,7 +33,7 @@ class Analysis3():
     def __init__(self, ticker):
         print("\ninside Analysis3.__init__")
         self.ticker = ticker
-        self.api_key = '1bd3a664e9e53b21b0264f0a985fce0f'
+        self.api_key = 'INSERT OWN API KEY HERE'
         self.url = "https://financialmodelingprep.com/api/v3/historical-price-full/{}?apikey={}".format(ticker.upper(),
                                                                                                         self.api_key)
         self.raw_data = 'analysis3_raw_data_' +  str(self.ticker) + '.csv'
